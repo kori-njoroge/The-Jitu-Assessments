@@ -1,0 +1,99 @@
+body{
+    background-color: #0C1323;
+    color: white;
+}
+
+.container{
+    /* border: 1px solid black; */
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 'item1','item2','item3', 'item4',
+                        'item1', 'item5', 'item6','item7'
+
+    ;
+    /* padding: 5px; */
+    grid-gap: 15px;
+}
+
+
+.item1{
+    grid-row: 1/ span 2;
+    padding: 10px;
+    border-radius: 10px;
+    height: 100%;
+}
+.contact{
+    background-color: #5847EA;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    height: 60%;
+}
+.user{
+    height: 50px;
+}
+.periods{
+    height: 40%;
+    border-radius: 50px;
+}
+
+
+.periods >p{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 15px;
+    background-color: #1D1F4C;
+}
+
+
+.card--img{
+    /* border: 1px solid blue; */
+    height: 40px;
+    border-radius: 5px;
+}
+
+
+
+.card--body{
+    background-color: #1D1F4C;
+    margin-top: 2px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.card-body-header{
+    display: flex;
+}
+
+.img-card{
+    margin-left: auto;
+    height: 4px;
+}
+.item2-img{
+    background-color:hsl(15, 100%, 70%);
+}
+.item3-img{
+    background-color:hsl(195, 74%, 62%);
+}
+
+.item4-img{
+    background-color:hsl(348, 100%, 68%);
+}
+.item5-img{
+    background-color:hsl(145, 58%, 55%);
+}
+.item6-img{
+    background-color:hsl(264, 64%, 52%);
+}
+.item7-img{
+    background-color:hsl(43, 84%, 65%);
+}
+
+.hours{
+    font-size: 30px;
+    margin: 0;
+}
