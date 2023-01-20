@@ -12,7 +12,6 @@ body{
     grid-template-columns: auto auto auto auto;
     grid-template-rows: 'item1','item2','item3', 'item4',
                         'item1', 'item5', 'item6','item7'
-
     ;
     /* padding: 5px; */
     grid-gap: 15px;
@@ -21,15 +20,15 @@ body{
 
 .item1{
     grid-row: 1/ span 2;
-    padding: 10px;
+    /* padding: 10px; */
     border-radius: 10px;
-    height: 100%;
+    /* height: 100%; */
 }
 .contact{
     background-color: #5847EA;
     padding-left: 10px;
     padding-top: 10px;
-    margin-bottom: 20px;
+    /* margin-bottom: -20px; */
     border-radius: 10px;
     height: 60%;
 }
@@ -37,33 +36,38 @@ body{
     height: 50px;
 }
 .periods{
-    height: 40%;
-    border-radius: 50px;
+    height: 30%;
+    border-radius: 10px;
+    /* margin-top: -30px; */
+    background-color: #1D1F4C;
+    /* padding-bottom: 10px; */
+    padding: 7px;
+
 }
 
 
 .periods >p{
-    margin-top: 0;
-    margin-bottom: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
     font-size: 15px;
-    background-color: #1D1F4C;
 }
 
 
 .card--img{
     /* border: 1px solid blue; */
-    height: 40px;
-    border-radius: 5px;
+    height: 50px;
+    border-radius:10px 10px 0px 0px;
 }
 
 
 
 .card--body{
     background-color: #1D1F4C;
-    margin-top: 2px;
+    margin-top: -10px;
     border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
+
 }
 .card-body-header{
     display: flex;
@@ -71,7 +75,7 @@ body{
 
 .img-card{
     margin-left: auto;
-    height: 4px;
+    height: 5px;
 }
 .item2-img{
     background-color:hsl(15, 100%, 70%);
@@ -96,4 +100,9 @@ body{
 .hours{
     font-size: 30px;
     margin: 0;
+}
+
+.icon{
+    height: 40px;
+    padding-left: 60%;
 }
